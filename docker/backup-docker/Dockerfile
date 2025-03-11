@@ -1,4 +1,4 @@
-FROM ghcr.io/netcracker/qubership-backup-daemon:fix-return_404_if_snapshot_is_removed_alpine
+FROM ghcr.io/netcracker/qubership-backup-daemon:fix_concurrency_issue_on_get_job_status_alpine
 
 ENV ELASTICSEARCH_CURATOR_HOME=/opt/elasticsearch-curator
 
